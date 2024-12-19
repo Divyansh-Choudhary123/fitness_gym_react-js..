@@ -1,0 +1,249 @@
+.about_main{
+    width: 100%;
+    height: auto;
+    display: grid;
+    place-items: center;
+}
+.about_main img{
+    width: 100%;
+    height: 450px;
+    position: relative;
+    filter: brightness(70%);
+}
+.about_main h2{
+    position: absolute;
+    top: 250px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+}
+.second_crads{
+    width: 85%;
+    height: auto;
+    margin: auto;
+    padding-top: 60px;
+    display: flex;
+    /* border: 2px solid black; */
+}
+.second_crads img{
+    width: 540px;
+    height: auto;
+}
+.second_card{
+    width: 570px;
+    height: auto;
+    /* background-color: red; */
+    margin-left: 30px;
+}
+.second_card h1{
+    font-weight: 700;
+}
+.second_card h5{
+     font-size: 19px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: rgb(63, 63, 63);
+     margin-top: 20px;
+}
+.second_card button{
+    width: 140px;
+    height: 50px;
+    background-color: black;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.second_card button a{
+    color: white;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.third_cards{
+    width: 85%;
+    height: auto;
+    margin: auto;
+    padding-top: 60px;
+    display: flex;
+}
+.third_card{
+    width: 570px;
+    height: auto;
+}
+.third_card h1{
+    font-weight: 700;
+}
+.third_card h5{
+    font-size: 19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(63, 63, 63);
+    margin-top: 20px;
+}
+.third_card button{
+   width: 140px;
+   height: 50px;
+   background-color: black;
+   border: none;
+   margin-top: 20px;
+   cursor: pointer;
+}
+.third_card button a{
+   color: white;
+   font-weight: 500;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-decoration: none;
+   list-style: none;
+}
+.third_cards img{
+    width: 540px;
+    height: auto;
+    margin-left: 30px;
+}
+.meet{
+    width: 86%;
+    height: auto;
+    margin: auto;
+    margin-top: 130px;
+    position: relative;
+}
+.meet img{
+    width: 100%;
+    height: 170px;
+}
+.meet_cards{
+    position: absolute;
+    top: 10px;
+    display: flex;
+    width: 85%;
+    /* background-color: red; */
+   margin-left: 85px;
+}
+.meet_cards h1{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 60px;
+}
+.meet_cards button{
+    width: 140px;
+    height: 50px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 55px;
+    margin-left: 400px;
+}
+.meet_cards button a{
+    color: black;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+@media(max-width:768px){
+    .about_main h2{
+        position: absolute;
+        top: 250px;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 40px;
+        font-weight: 700;
+    } 
+    .about_main img{
+        width: 100%;
+        height: 380px;
+        position: relative;
+        filter: brightness(70%);
+    }
+    .second_crads{
+        width: 90%;
+        height: auto;
+        margin: auto;
+        padding-top: 30px;
+        flex-wrap: wrap;
+        /* border: 2px solid black; */
+    }
+    .second_crads img{
+        width: 100%;
+        height: auto;
+    }
+    .second_card{
+        width: 100%;
+        height: auto;
+        /* background-color: red; */
+        margin-left: 0px;
+    }
+   
+    .third_cards{
+        width: 90%;
+        height: auto;
+        margin: auto;
+        padding-top: 30px;
+        flex-wrap: wrap; 
+    }
+    .third_cards img{
+        width: 100%;
+        height: auto;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .third_card{
+        width: 100%;
+        height: auto;
+        /* background-color: red; */
+        margin-left: 0px;
+    }
+    .third_card h1{
+        font-weight: 700;
+        font-size: 23px;
+        margin-top: 30px;
+    }
+    
+   .meet{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+    position: relative;
+}
+.meet img{
+    width: 100%;
+    height: auto;
+}
+.meet_cards{
+    position: absolute;
+    top: 0px;
+    flex-wrap: wrap;
+    width: 100%;
+    /* background-color: red; */
+    margin-left: 0px;
+    display: grid;
+    place-items: center;
+}
+.meet_cards h1{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    
+}
+.meet_cards button{
+    width: 110px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+.meet_cards button a{
+    color: black;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+}
